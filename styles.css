@@ -1,10 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html{
-    font-family: 'Gloock', serif;
+    font-family: 'Poppins';
     background: rgb(253, 254, 246);
 }
-
+body {
+    margin: 0%;
+    background-color: black;
+    height: 100vh;
+    background-image: url('assets/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     text-align: center;
   }
+    .container h1 {
+        transform: translateY(-40px);
+        text-align: start;
+        font-size: 5rem;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 500;
+        background-color: #0000004f;
+    }
+
+    .container p {
+        transform: translateY(-80px);
+        color: #fff;
+        text-align: start;
+    }
+    .icon-bar {
+        display: flex;
+        transform: translateY(-50px);
+        justify-content: space-around;
+        transition: all 0.3s ease;
+      }
+      
+      .icon-bar2 {
+        display: flex;
+        justify-content: space-around;
+      }
+      .icon-bar2 a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+      }
+
+      .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 10px 70px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+      }
+      
+      .icon-bar a:hover {
+        background-color: #0000004f;
+        transform: scale(1.1);
+      }
+      
+      .icon-bar img {
+        height: 30px;
+        width: 30px; 
+      }
