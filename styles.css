@@ -38,19 +38,6 @@ body {
         justify-content: space-around;
         transition: all 0.3s ease;
       }
-      
-      .icon-bar2 {
-        display: flex;
-        justify-content: space-around;
-      }
-      .icon-bar2 a {
-        display: block;
-        text-align: center;
-        padding: 16px;
-        transition: all 0.3s ease;
-        color: white;
-        font-size: 20px;
-      }
 
       .icon-bar a {
         display: block;
