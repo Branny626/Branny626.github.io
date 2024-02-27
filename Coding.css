@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    font-family: 'Poppins';
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(50,50,50,1) 50%, rgba(99,99,99,1) 100%);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 500;
+    background-color: #0000004f;
+    padding: 16px 16px;
+}
+
+h2{
+    color: white;
+}
+p{
+    color: #fff;
+    text-align: center;
+}
+.container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+.icon-bar {
+  color: white;
+  display: flex;
+    transform: translateY(50px);
+    justify-content: left ;
+    transition: all 0.3s ease;
+
+}
+
+.container h1{
+    transform: translateX(90px);
+}
+.icon-bar img{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+.flexbox-grid{
+    justify-content: center;
+    display:flex;
+    gap: 20px; 
+}
+
+.column{
+    padding: 0px 20px;
+    flex: 1;
+}
+
+.column img{
+    height: 300px;
+    width: 330px;
+    padding: 10px;
+}
+#col-large{
+    flex-grow: 3; 
+}
