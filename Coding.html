@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <!-- Linking CSS and JavaScript files -->
+    <link rel="stylesheet" href="Coding.css">
+    <script src="js.js"></script>
+    <title>Coding</title>
 </head>
 <body>
-    
+  <!-- Sidebar -->
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="Music.html">Music</a>
+  </div>
+  <!-- Open sidebar button -->
+  <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+  <h1>Coding Projects</h1>
+    <!-- Grid for cards -->
+  <div class="flexbox-grid">
+  <!-- Card 1 -->
+  <div class="card">
+    <img src="assets/Animation.gif" alt="Avatar" style="width: 300px;height:350px">
+    <div class="container">
+      <h4><b>Project 1: Turtle Animation </b></h4>
+      <p>This was my first coding project where we coded a repeating animation with Python turtle library. I experimented with goto functions to create the shrinking sqaure animation.</p>
+    </div>
+  </div>
+    <!-- Card 2 -->
+  <div class="card">
+    <img src="assets/hi.png" alt="Avatar" style="width: 330px;height:350px">
+    <div class="container">
+      <h4><b>Project 2: r/place API project </b></h4>
+      <p>I created a local r/place, I created the backend with python banjo which hits the SQL database. The frontend is created in terminal through menu options.</p>
+    </div>
+  </div>
+  <!-- Card 3 -->
+  <div class="card">
+    <img src="assets/proejct.png" alt="Avatar" style="width: 450px;height:350px">
+    <div class="container">
+      <h4><b>Project 3: School IM app project </b></h4>
+      <p>I am working on the frontend for the app used in the IM fair. I am also working in other projects such as Qilin life and the ISF energy app but they are not finished.</p>
+    </div>
+  </div>
+</div>
+  <!-- Icon bar -->
+<div class="icon-bar">
+  <a href="https://github.com/Branny626"><img src="assets/2.png" alt="Github"></a> 
+  <a href="mailto:0114019@student.isf.edu.hk"><img src="assets/3.png" alt="Email"></a> 
+    <a href="#"><img src="assets/4.png" alt="Phone"></a> 
+  </div>
 </body>
 </html>

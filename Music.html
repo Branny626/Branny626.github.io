@@ -1,32 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Linking CSS and Js -->
     <link rel="stylesheet" href="Coding.css">
     <script src="js.js"></script>
-    <title>Coding</title>
+    <title>Music</title>
 </head>
+<!-- Side bar -->
 <body>
   <div id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="index.html">Home</a>
     <a href="Coding.html">Coding</a>
   </div>
-  <!-- <div class ="overlay"></div> -->
   <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
-    <h1>Music Projects</h1>
-    <div class="flexbox-grid">
-        <div class="column">
-            <img src="assets/bandlogo.png" alt="Band Logo">
-        </div>
-      
-        <div class="column" id="col-large">
-          <h2>地下室の子供</h2>
-          <p>Vivamus pellentesque molestie odio, eu porttitor dui pharetra id. Nunc tempus tristique tortor, sit amet pellentesque magna accumsan sed. Nullam posuere nunc eu libero rutrum sodales. Duis congue scelerisque odio eu suscipit. Nunc at ligula non libero viverra dapibus. In sit amet lacinia odio.</p>
-        </div>
+  <h1>Music Projects</h1>
+  <!-- Card Grid -->
+  <div class="flexbox-grid">
+  <!-- Card 1 -->
+  <div class="card">
+    <img src="assets/music1.png" alt="Avatar" style="width: 300px;height:350px">
+    <div class="container">
+      <h4><b>Project 1: Modernism </b></h4>
+      <p>This was my first music project of the year where we needed to create graphical scores in the style of 20th century modern art. </p>
+    </div>
+  </div>
+  <!-- Card 2 -->
+  <div class="card">
+    <img src="assets/music2.png" alt="Avatar" style="width: 330px;height:350px">
+    <div class="container">
+      <h4><b>Project 2: EDM Project </b></h4>
+      <p>I created a 3 minute EDM composition inspired by Odesza. </p>
+      <a href = "https://drive.google.com/file/d/1fR-QWmvwcU_k-mrUigjSh8KipDN-w4T5/view?usp=sharing">Link</a>
+    </div>
+  </div>
+  <!-- Card 3 -->
+    <div class="card">
+      <img src="assets/bandlogo.png" alt="Avatar" style="width: 350px;height:350px">
+      <div class="container">
+        <h4><b>Project 3: Band </b></h4>
+        <p>Me and my friends created a band where we play and compose music. Currently, we have composed a few original works in the style of J-pop</p>
+        <a href = 'https://drive.google.com/file/d/1I88EJ0hx1_FsfdMnv8CbNJdTf1skN8iX/view?usp=sharing'> Original song</a>
       </div>
+    </div>
+</div>
+<!-- Icon Bar -->
 <div class="icon-bar">
-    <a href="#"><img src="assets/2.png" alt="Github"></a> 
-    <a href="#"><img src="assets/3.png" alt="Email"></a> 
+  <a href="https://github.com/Branny626"><img src="assets/2.png" alt="Github"></a> 
+  <a href="mailto:0114019@student.isf.edu.hk"><img src="assets/3.png" alt="Email"></a> 
     <a href="#"><img src="assets/4.png" alt="Phone"></a> 
   </div>
 </body>

@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Font family */
 html{
     font-family: 'Poppins';
-    background: rgb(253, 254, 246);
+    color: white;
 }
+
+/* Defined background image and display settings*/
 body {
     margin: 0%;
     background-color: black;
@@ -14,9 +17,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* Define container */
 .container {
     text-align: center;
   }
+  /* Define H1 for inside container */
     .container h1 {
         transform: translateY(-40px);
         text-align: start;
@@ -25,13 +30,16 @@ body {
         text-shadow: 2px 2px 4px #000000;
         font-weight: 500;
         background-color: #0000004f;
+        padding-left: 13px;
     }
+    /* Define P for inside container */
 
     .container p {
         transform: translateY(-80px);
         color: #fff;
         text-align: start;
     }
+    /* Creating Icon Bar */
     .icon-bar {
         display: flex;
         transform: translateY(-50px);
@@ -47,13 +55,15 @@ body {
         color: white;
         font-size: 20px;
       }
-      
+      /* Hover Effect */
       .icon-bar a:hover {
         background-color: #0000004f;
         transform: scale(1.1);
       }
-      
+      /* Restricting Image Size */
       .icon-bar img {
         height: 30px;
         width: 30px; 
       }
+
+    
